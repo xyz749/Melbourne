@@ -1,0 +1,252 @@
+
+
+/* Additional styles for header and navigation */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header stays on top of other elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.search-form button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #ddd;
+}
+/* CSS for main divisions */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+/* Styles for dropdown box */
+.dropdown-box {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.dropdown-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #978a8a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styles for button matrix */
+.button-matrix {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto); /* Adjust as needed */
+    grid-gap: 20px; /* Horizontal gap */
+    row-gap: 50px; /* Vertical gap */
+}
+
+.button-matrix button {
+    padding: 100px;
+    background-color: #007bff;
+    color: #181515;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+/* Styles for news board */
+.news-board {
+    background-color: #dbe294;
+    padding: 50px;
+}
+
+.news-board h2 {
+    margin-bottom: 50px;
+}
+
+.news-item {
+    border-bottom: 1px solid #1b1313;
+    padding-bottom: 50px;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+/* Footer styles */
+
+/* Footer styles */
+
+footer {
+    background-color: #333; /* Dark grey background */
+    padding: 30px 20px;
+    color: #fff; /* White text color */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-address, .footer-links, .translation-services {
+    width: 30%;
+}
+
+.footer-links ul, .translation-services {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .translation-services p {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-bottom li:last-child {
+    margin-right: 0;
+}
+/* Featured section styles */
+
+.featured-section {
+    margin-top: 50px;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    margin-bottom: 40px;
+}
+
+.featured-item img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-item h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.featured-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.featured-item a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-item a:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+.info-section {
+    background-color: #333; /* Dark gray background color */
+    color: #000; /* Black text color */
+    padding: 20px;
+}
+
+.info-section .pop-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-section img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.info-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
